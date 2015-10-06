@@ -1,0 +1,19 @@
+# Site settings
+title: Brian Reed | Front-End Developer, Musician, Ghostbuster
+email: brian.reed.design@gmail.com
+description: I specialize in responsive, interactive UX, utilizing the latest and greatest in front-end technology. I thrive on creativity and problem solving, bringing awesome solutions to awesome projects. I live, work, and play music in Minneapolis.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://brianreed.me" # the base hostname & protocol for your site
+twitter_username: jimfrankenstein
+github_username:  jimfrankenstein
+
+# Build settings
+markdown: kramdown
+image_path: "/images"
+
+exclude:
+  - divshot.json
+  - brianreedme.sublime-project
+  - brianreedme.sublime-workspace
+
+gems: [octopress-autoprefixer]

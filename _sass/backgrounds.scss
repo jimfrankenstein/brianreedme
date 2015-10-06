@@ -1,0 +1,62 @@
+// the site will scale between:
+//  -1600px (5-columns)
+//  -1280px (4-columns)
+//  -960px (3-columns)
+//  -720px (2-columns)
+//  -below 720px (1-column, phones only)
+
+
+#hero_bucket .core { background-image: url("#{$image_path}/heya.jpg") }
+
+/* DEFAULT SIZES */
+
+@media only screen and ( min-width: 961px ) {
+  #work_intro_bucket .core { background-image: url("#{$image_path}/1280/work.jpg") }
+  #music_intro_bucket .core { background-image: url("#{$image_path}/1280/music.jpg") }
+  #art_intro_bucket .core { background-image: url("#{$image_path}/1280/art.jpg") }
+  #footer .core { background-image: url("#{$image_path}/1280/footer.jpg") }
+}
+@media only screen and ( min-width: 721px ) and ( max-width: 960px ) {
+  #work_intro_bucket .core { background-image: url("#{$image_path}/960/work.jpg") }
+  #music_intro_bucket .core { background-image: url("#{$image_path}/960/music.jpg") }
+  #art_intro_bucket .core { background-image: url("#{$image_path}/960/art.jpg") }
+  #footer .core { background-image: url("#{$image_path}/960/footer.jpg") }
+}
+@media only screen and ( min-width: 321px ) and ( max-width: 720px ) {
+  #work_intro_bucket .core { background-image: url("#{$image_path}/720/work.jpg") }
+  #music_intro_bucket .core { background-image: url("#{$image_path}/720/music.jpg") }
+  #art_intro_bucket .core { background-image: url("#{$image_path}/720/art.jpg") }
+  #footer .core { background-image: url("#{$image_path}/960/footer_phone.jpg"); background-size: cover; } // 960 because background-size change
+}
+@media only screen and ( max-width: 320px ) {
+  #work_intro_bucket .core { background-image: url("#{$image_path}/320/work.jpg") }
+  #music_intro_bucket .core { background-image: url("#{$image_path}/320/music.jpg") }
+  #art_intro_bucket .core { background-image: url("#{$image_path}/320/art.jpg") }
+  #footer .core { background-image: url("#{$image_path}/720/footer_phone.jpg"); background-size: cover; }
+}
+
+/* RETINA SIZES */
+
+@media ( -webkit-min-device-pixel-ratio: 2 ) and ( min-width: 721px ),
+  ( min-resolution: 192dpi ) and ( min-width: 721px ) {
+  #work_intro_bucket .core { background-image: url("#{$image_path}/1280/work.jpg") }
+  #music_intro_bucket .core { background-image: url("#{$image_path}/1280/music.jpg") }
+  #art_intro_bucket .core { background-image: url("#{$image_path}/1280/art.jpg") }
+  #footer .core { background-image: url("#{$image_path}/1280/footer.jpg") }
+}
+@media ( -webkit-min-device-pixel-ratio: 2 ) and ( min-width: 321px ) and ( max-width: 720px ),
+  ( min-resolution: 192dpi ) and ( min-width: 321px ) and ( max-width: 720px ) {
+  #work_intro_bucket .core { background-image: url("#{$image_path}/960/work.jpg") }
+  #music_intro_bucket .core { background-image: url("#{$image_path}/960/music.jpg") }
+  #art_intro_bucket .core { background-image: url("#{$image_path}/960/art.jpg") }
+  #footer .core { background-image: url("#{$image_path}/1280/footer_phone.jpg"); background-size: cover; }
+}
+@media ( -webkit-min-device-pixel-ratio: 2 ) and ( max-width: 320px ),
+  ( min-resolution: 192dpi ) and ( max-width: 320px ) {
+  #work_intro_bucket .core { background-image: url("#{$image_path}/720/work.jpg") }
+  #music_intro_bucket .core { background-image: url("#{$image_path}/720/music.jpg") }
+  #art_intro_bucket .core { background-image: url("#{$image_path}/720/art.jpg") }
+  #footer .core { background-image: url("#{$image_path}/960/footer_phone.jpg"); background-size: cover; }
+}
+
+

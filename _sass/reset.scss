@@ -1,0 +1,104 @@
+// reset
+// 
+html {
+	background: #000;
+	width: 100%;
+}
+
+body {
+	background: #000;
+	font: 16px/20px "Raleway", "HelveticaNeueLight", Arial, sans-serif;
+	height: 100%; width: 100%;
+	text-align: center;
+}
+
+html, head, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, select, option, form, fieldset, input, p, blockquote, th, td { margin: 0; padding: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, main, nav, section {
+	margin: 0; padding: 0;
+	display: block;
+}
+
+strong { font-weight: bold; }
+
+em { font-style: italic; }
+
+ul, li { list-style: none; }
+
+img { border: none; }
+
+.clear {
+	height: 0;
+	clear: both; float: none;
+}
+
+.imgLink { display: block; }
+
+.hide, .js .jsShow, .no-js .jsHide { display: none; }
+
+.js .jsHide { display: block; }
+
+.phone .p_hide { display: none; }
+
+.no-js {
+	.jsShow { display: block; }
+	.enableJSHeader {
+		font-weight: bold;
+		margin: 10px 0;
+		color: #f00;
+	}
+}
+
+.fg {
+	&:before {
+		height: 0;
+		content: "\0020"; display: block;
+	}
+	&:after {
+		height: 0;
+		clear: both; content: "\0020"; display: block;
+	}
+}
+
+.bx {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+/*a:link { color: #323d6d; }
+a:visited { color: #323d6d; }
+a:hover { color: #3d4f9d; }
+a:active { color: #3d4f9d; }*/
+
+.caps { text-transform: capitalize; }
+
+.legalese { font: italic normal 10px / 12px Arial, Helvetica, sans-serif; }
+
+.twoColList li {
+	width: 49%;
+	margin: 0 1% 0 0;
+	float: left;
+}
+
+.error!, .errMsg! {}
+
+input.errMsg, .errField { border: 1px solid #f00 !important; }
+
+select {
+	&.errMsg, &.errField {
+		background: #f00 !important;
+		color: #fff !important;
+	}
+}
+
+input.errMsg, select.errMsg {
+	box-shadow: 0 0 10px #f00;
+	-moz-box-shadow: 0 0 10px #f00;
+	-webkit-box-shadow: 5px 5px 5px #f00;
+}

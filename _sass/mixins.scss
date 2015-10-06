@@ -1,0 +1,23 @@
+// mixins
+// 
+@mixin ellipsis( $nowrap: true ) {
+  overflow: hidden; text-overflow: ellipsis;
+  @if $nowrap { white-space: nowrap; }
+}
+@mixin gradient( $top_color: #ffffff, $bottom_color: #000000, $direction: top ) {
+  // fallback
+  background-color: $top_color;
+  background-repeat: repeat-x;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($bottom_color), to($top_color)); // Safari 4-5, Chrome 1-9
+  background: -webkit-linear-gradient($direction, $top_color, $bottom_color); // Safari 5.1, Chrome 10+
+  background: -moz-linear-gradient($direction, $top_color, $bottom_color); // Firefox 3.6+
+  background: -ms-linear-gradient($direction, $top_color, $bottom_color); // IE 10
+  background: -o-linear-gradient($direction, $top_color, $bottom_color); // Opera 11.10+
+}
+@mixin opacity_transition( $duration: 500ms ) {
+  transition: opacity $duration ease-out;
+  // -webkit-transition: opacity $duration ease-out;
+  // -moz-transition: opacity $duration ease-out;
+  // -o-transition: opacity $duration ease-out;
+  // transition: opacity $duration ease-out;
+}

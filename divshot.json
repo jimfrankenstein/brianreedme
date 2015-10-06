@@ -1,0 +1,9 @@
+{
+  "name": "brianreedme",
+  "root": "_site",
+  "clean_urls": true,
+  "error_page": "error.html",
+  "redirects": {
+    "/resume": "/BrianReedResume.pdf"
+  }
+}

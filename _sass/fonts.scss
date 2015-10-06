@@ -1,0 +1,20 @@
+// fonts
+// 
+
+$font_path: '/fonts';
+
+@font-face {
+  font-family: 'HelveticaNeueLight';
+  src: url("#{$font_path}/hneue-lt.eot");
+  src: url("#{$font_path}/hneue-lt.eot?#iefix") format("embedded-opentype"), url("#{$font_path}/hneue-lt.woff") format("woff"), url("#{$font_path}/hneue-lt.ttf") format("truetype"), url("#{$font_path}/hneue-lt.svg#hneue-lt") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gatintas';
+  src: url("#{$font_path}/gatintas.eot");
+  src: url("#{$font_path}/gatintas.eot?#iefix'") format("embedded-opentype"), url("#{$font_path}/gatintas.woff") format("woff"), url("#{$font_path}/gatintas.ttf") format("truetype"), url("#{$font_path}/gatintas.svg#gatintas") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

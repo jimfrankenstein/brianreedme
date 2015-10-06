@@ -1,0 +1,372 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"query",
+				"querySelector"
+			],
+			[
+				"querySe",
+				"querySelector"
+			],
+			[
+				"querySelecto",
+				"querySelectorAll"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 509,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/brianreed/Sites/brianreedme"
+	],
+	"file_history":
+	[
+		"/Users/brianreed/Sites/brianreedme/index.html",
+		"/Users/brianreed/Desktop/index.html",
+		"/Users/brianreed/Sites/existibot/.gitignore",
+		"/Users/brianreed/Sites/existibot/_includes/comic_display.html",
+		"/Users/brianreed/Sites/existibot/_includes/footer.html",
+		"/Users/brianreed/Sites/existibot/_includes/header.html",
+		"/Users/brianreed/Sites/existibot/index.html",
+		"/Users/brianreed/Sites/existibot/_layouts/default.html",
+		"/Users/brianreed/Sites/existibot/_includes/head.html",
+		"/Users/brianreed/Sites/existibot/_includes/javascript.html",
+		"/Users/brianreed/Sites/existibot/_layouts/comic.html",
+		"/Users/brianreed/Sites/existibot/_posts/2014-10-31-cogito.markdown",
+		"/Users/brianreed/Sites/existibot/_posts/2015-02-16-company-handbook.markdown",
+		"/Users/brianreed/Sites/existibot/_posts/2015-01-31-infinitesimal.markdown",
+		"/Users/brianreed/Sites/existibot/_posts/2015-01-15-exit.markdown",
+		"/Users/brianreed/Sites/existibot/_posts/2014-12-01-father.markdown",
+		"/Users/brianreed/Sites/existibot/_posts/2014-11-15-banalities-of-melancholy.markdown",
+		"/Users/brianreed/Sites/existibot/js/analytics.coffee",
+		"/Users/brianreed/Sites/existibot/_sass/_base.scss",
+		"/Users/brianreed/Sites/existibot/css/main.scss",
+		"/Users/brianreed/Sites/existibot/_sass/_fonts.scss",
+		"/Users/brianreed/Sites/existibot/_drafts/template.markdown",
+		"/Users/brianreed/Sites/existibot/_layouts/index_default.html",
+		"/Users/brianreed/Sites/existibot/_includes/boiler_plate.html",
+		"/Users/brianreed/Sites/existibot/_includes/boilerplate.html",
+		"/Users/brianreed/Sites/existibot/_site/about/index.html",
+		"/Users/brianreed/Sites/existibot/_posts/2014-11-15-banalities.markdown",
+		"/Users/brianreed/Sites/existibot/_includes/analytics.html",
+		"/Users/brianreed/Sites/existibot/_includes/javascripts.html",
+		"/Users/brianreed/Sites/existibot/_sass/_layout.scss",
+		"/Users/brianreed/Desktop/home.php",
+		"/Users/brianreed/Sites/existibot/_config.yml",
+		"/Users/brianreed/Sites/existibot/_posts/2015-07-16-banalities.markdown",
+		"/Users/brianreed/Sites/existibot/CNAME",
+		"/Users/brianreed/Sites/existibot-test/.gitignore",
+		"/Users/brianreed/Sites/existibot/home.php",
+		"/Users/brianreed/Sites/existibot-test/_includes/head.html",
+		"/Users/brianreed/Sites/existibot-test/_layouts/comic.html",
+		"/Users/brianreed/Sites/existibot-test/_posts/2015-07-15-cogito.markdown",
+		"/Users/brianreed/Sites/existibot-test/_posts/2015-07-15-welcome-to-jekyll.markdown",
+		"/Users/brianreed/Sites/existibot-test/_site/js/main.js",
+		"/Users/brianreed/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/brianreed/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/brianreed/Sites/existibot-test/_posts/2015-07-15-cogito.md",
+		"/Users/brianreed/Sites/existibot-test/_includes/header.html",
+		"/Users/brianreed/Sites/existibot-test/css/main.scss",
+		"/Users/brianreed/Sites/existibot-test/js/main.coffee",
+		"/Users/brianreed/Sites/existibot-test/_includes/footer.html",
+		"/Users/brianreed/Sites/existibot-test/_layouts/default.html",
+		"/Users/brianreed/Sites/existibot-test/test.html",
+		"/Users/brianreed/Sites/existibot-test/_plugins/asset_path_tag.rb"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"butt",
+			"addEventListener",
+			"chapter",
+			"page",
+			"$",
+			"$$",
+			".ready",
+			"HelveticaNeueMedium",
+			"HelveticaNeueLight",
+			"site_interval",
+			".scrolling",
+			"bx",
+			"comicContainer__panel",
+			"comic",
+			"bucket",
+			"footer",
+			"bucket",
+			"footer",
+			"id",
+			"bx",
+			"hero",
+			"bx",
+			"indent",
+			"tab"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								80
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "brianreedme.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"config",
+				"_config.yml"
+			],
+			[
+				"footer",
+				"_includes/footer.html"
+			],
+			[
+				"comic",
+				"_includes/comic_display.html"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"java",
+				"_includes/javascript.html"
+			],
+			[
+				"header",
+				"_includes/header.html"
+			],
+			[
+				"head.h",
+				"_includes/head.html"
+			],
+			[
+				"main.cof",
+				"js/main.coffee"
+			],
+			[
+				"base",
+				"_sass/_base.scss"
+			],
+			[
+				"main.s",
+				"css/main.scss"
+			],
+			[
+				"footer.",
+				"_includes/footer.html"
+			],
+			[
+				"main.j",
+				"_site/js/main.js"
+			],
+			[
+				"head.",
+				"_includes/head.html"
+			],
+			[
+				"hero.h",
+				"_layouts/hero.html"
+			],
+			[
+				"foote",
+				"_includes/footer.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
